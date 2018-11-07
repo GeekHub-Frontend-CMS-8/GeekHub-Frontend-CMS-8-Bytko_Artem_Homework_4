@@ -10,6 +10,18 @@ h2{
 	font-weight: 300;
 	line-height: 35.12px;
 }
+h1{
+	text-align: center;
+	margin: auto;
+	max-width: 900px;
+	color: #ffffff;
+	font-family:Lato;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 60px;
+	text-transform: uppercase;
+	letter-spacing: 1.25px;
+}
 .cookies{
 	height: 72px;
 	margin: auto;
@@ -39,25 +51,33 @@ h2{
 }
 header{
 	background-image: url("../img/header-background.png");
-    background-size: 100%;
-
+	background-size: 100%;
+	text-align: center;
 }
-.headline-wrapper{
+.wrapper{
+	display: inline-block;
 	max-width: 1140px;
 	margin: auto;
 	text-align: center;
+	padding: 100px 0px;
+}
+header .wrapper{
+	padding: 30px 0px;
 }
 .menu{
 	display: inline-block;
 	position: relative;
 	float: right;
-	margin: 30px 20px;	
+	
 }
 .circle-1{
 	display: inline-block;
+	text-align: center;
+	margin: 40px 0px
+	50px 0px;
 	height: 150px;
 	width: 150px;
-	margin-top: 100px; 
+	box-sizing: content-box; 
 	border-radius: 50%;
 	border: 10px solid transparent;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
@@ -70,24 +90,10 @@ header{
 	border-radius: 50%;
 }
 
-.headline{
-	text-align: center;
-	margin: auto;
-	max-width: 900px;
-	color: #ffffff;
-	font-family:Lato;
-	font-size: 50px;
-	font-weight: 700;
-	line-height: 60px;
-	text-transform: uppercase;
-	letter-spacing: 1.25px;
-	margin-top: 50px;
-
-}
 .headline-paragraph{
 	text-align: center;
 	margin: auto;
-	margin-top: 40px;
+	padding: 40px 0px 80px 0px;
 	max-width: 780px;
 	color: #ffffff;
 	font-size: 16px;
@@ -97,9 +103,9 @@ header{
 	letter-spacing: 0.4px;
 }
 .hire-me{
+	display: inline-block;
 	text-align: center;
 	margin: auto;
-	margin-top: 80px;
 	width: 204px;
 	height: 55px;
 	border-radius: 28px;
@@ -116,50 +122,36 @@ header{
 	display: block;
 	text-align: center;
 	margin: auto;
-	padding: 100px 0px 30px 0px;
-}
-.ABOUT-ME{
-	background-color: #ffffff;
-}
-.HL-about-me{
 	padding-top: 100px;
+}
+.about-me{
+	background-color: #ffffff;
+	text-align: center;
 }
 .about-me-paragraph{
 	text-align: center;
 	margin: auto;
 	padding-top: 70px;
-	padding-bottom: 115px;
 	max-width: 1065px;
 	color: #5a5a5a;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 35px;
 }
-#expert-in{
+.expert-in{
 	background-color: #f1f8ff;
-}
-.expert-in-wrapper{
-	margin: auto;
-	max-width: 1140px; 	
-}
-.HL-expert-in{
-	padding: 90px 0px;
-}
-.photo-block{
-	max-width: 1140px;	
-}
-
-.skills{
-	float: left;
-	width: 33%;
 	text-align: center;
-
 }
-
-.skills img{
-margin: 100px auto;
+.skills{
+	display: inline-block;
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin: 0px 15px;
 }
-
+.img{
+	padding: 100px 0px;
+}
 .skills-headline{
 	color: #3677fd;
 	font-family: Lato;
@@ -177,39 +169,37 @@ margin: 100px auto;
 	line-height: 35px;
 }
 @media only screen and (max-width: 600px) {
-    .skills {
-        display: block;
-        width: 100%;
-    }
+	.skills {
+		display: block;
+		width: 100%;
+	}
 }
 .latest-works{
 	background-color: #ffffff;
+	text-align: center;
 }
-.HL-latest-works{
-	padding: 100px;
+.latest-works h2{
+	padding-bottom: 50px;
 }
 .works-example{
 	display: inline-block;
 	float: left;
-	width: 33%;
+	width: 30%;
 	text-align: center;
+	margin: 50px 15px;
 }
 
 .clients{
 	background-color: #f1f8ff;
+	text-align: center;
 }
-.clients-wrapper{
-	margin: auto;
- 	max-width: 1140px;
- 	text-align: center;
+.clients  h2{
+	padding-bottom: 80px;
 }
-.HL-clients{
-padding: 100px 0px 70px 0px;
-}
+
 .clients-logo{
 	text-align: center;
 	margin: auto;
-	padding-bottom: 100px;
 }
 footer{
 	background-image: url(../img/footer-background.png);
@@ -217,14 +207,9 @@ footer{
 	min-height: 247px;
 	text-align: center;
 }
-.footer-wrapper{
-	max-width: 1140px;
-	margin: auto;
-}
 .question{
 	display: inline-block;
-	float: left;
-	padding-top: 75px; 
+	float: left; 
 	color: #ffffff;
 	font-size: 50px;
 	font-weight: 300;
@@ -235,7 +220,4 @@ footer{
 }
 .answer{
 	font-weight: 700;
-}
-.last-button{
-	display: inline-block;
 }
