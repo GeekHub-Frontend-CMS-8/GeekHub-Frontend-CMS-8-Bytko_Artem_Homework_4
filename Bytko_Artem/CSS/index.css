@@ -1,0 +1,241 @@
+p{
+	font-family: Lato;
+}
+h2{
+	text-align: center;
+	margin: auto;
+	color: #3677fd;
+	font-family: Lato;
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 35.12px;
+}
+.cookies{
+	height: 72px;
+	margin: auto;
+	text-align: center;
+	background-color: #194277;
+}
+.cookies_text{
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+#cookies-button{
+	width: 112px;
+	height: 30px;
+	margin: 20px 20px;
+	border-radius: 15px;
+	background-color: #ffffff;
+	color: #194277;
+	font-family: Lato;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 16.36px;
+	letter-spacing: 0.55px;
+}
+header{
+	background-image: url("../img/header-background.png");
+    background-size: 100%;
+
+}
+.headline-wrapper{
+	max-width: 1140px;
+	margin: auto;
+	text-align: center;
+}
+.menu{
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin: 30px 20px;	
+}
+.circle-1{
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	margin-top: 100px; 
+	border-radius: 50%;
+	border: 10px solid transparent;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
+}
+.circle-2{
+	height: 130px;
+	width: 130px;
+	background-color: #ffffff;
+	border: solid 10px #5397fe;
+	border-radius: 50%;
+}
+
+.headline{
+	text-align: center;
+	margin: auto;
+	max-width: 900px;
+	color: #ffffff;
+	font-family:Lato;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 60px;
+	text-transform: uppercase;
+	letter-spacing: 1.25px;
+	margin-top: 50px;
+
+}
+.headline-paragraph{
+	text-align: center;
+	margin: auto;
+	margin-top: 40px;
+	max-width: 780px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 35px;
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+}
+.hire-me{
+	text-align: center;
+	margin: auto;
+	margin-top: 80px;
+	width: 204px;
+	height: 55px;
+	border-radius: 28px;
+	background-color: #ffffff;
+	color: #3695ff;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+}
+.arrow{
+	display: block;
+	text-align: center;
+	margin: auto;
+	padding: 100px 0px 30px 0px;
+}
+.ABOUT-ME{
+	background-color: #ffffff;
+}
+.HL-about-me{
+	padding-top: 100px;
+}
+.about-me-paragraph{
+	text-align: center;
+	margin: auto;
+	padding-top: 70px;
+	padding-bottom: 115px;
+	max-width: 1065px;
+	color: #5a5a5a;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 35px;
+}
+#expert-in{
+	background-color: #f1f8ff;
+}
+.expert-in-wrapper{
+	margin: auto;
+	max-width: 1140px; 	
+}
+.HL-expert-in{
+	padding: 90px 0px;
+}
+.photo-block{
+	max-width: 1140px;	
+}
+
+.skills{
+	float: left;
+	width: 33%;
+	text-align: center;
+
+}
+
+.skills img{
+margin: 100px auto;
+}
+
+.skills-headline{
+	color: #3677fd;
+	font-family: Lato;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.skills-paragraph{
+	padding: 20px 10px;
+	color: #5a5a5a;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 35px;
+}
+@media only screen and (max-width: 600px) {
+    .skills {
+        display: block;
+        width: 100%;
+    }
+}
+.latest-works{
+	background-color: #ffffff;
+}
+.HL-latest-works{
+	padding: 100px;
+}
+.works-example{
+	display: inline-block;
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.clients{
+	background-color: #f1f8ff;
+}
+.clients-wrapper{
+	margin: auto;
+ 	max-width: 1140px;
+ 	text-align: center;
+}
+.HL-clients{
+padding: 100px 0px 70px 0px;
+}
+.clients-logo{
+	text-align: center;
+	margin: auto;
+	padding-bottom: 100px;
+}
+footer{
+	background-image: url(../img/footer-background.png);
+	background-size: 100%;
+	min-height: 247px;
+	text-align: center;
+}
+.footer-wrapper{
+	max-width: 1140px;
+	margin: auto;
+}
+.question{
+	display: inline-block;
+	float: left;
+	padding-top: 75px; 
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 65px;
+	font-family: Lato;
+	font-weight: 300;
+
+}
+.answer{
+	font-weight: 700;
+}
+.last-button{
+	display: inline-block;
+}
